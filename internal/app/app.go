@@ -16,6 +16,7 @@ func New() *App {
 	r := core.NewRunner()
 
 	r.Register(linux.New())
+	r.Register(linux.NewMemory())
 
 	return &App{
 		runner: r,
