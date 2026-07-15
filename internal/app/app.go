@@ -18,6 +18,10 @@ func New() *App {
 	r.Register(linux.New())
 	r.Register(linux.NewMemory())
 	r.Register(linux.NewFilesystem())
+	r.Register(linux.NewHostname())
+	r.Register(linux.NewKernel())
+	r.Register(linux.NewSwap())
+	r.Register(linux.NewTime())
 
 	return &App{
 		runner: r,
