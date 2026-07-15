@@ -17,6 +17,7 @@ func New() *App {
 
 	r.Register(linux.New())
 	r.Register(linux.NewMemory())
+	r.Register(linux.NewFilesystem())
 
 	return &App{
 		runner: r,
