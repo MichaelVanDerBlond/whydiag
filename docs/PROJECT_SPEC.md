@@ -59,15 +59,15 @@ UNKNOWN используется, если достоверно определи
 Примеры:
 
 - hostname
+- OS information
 - kernel
+- uptime
 - CPU
 - memory
 - swap
 - filesystem
-- time
-- network interfaces
-- processes
-- systemd units
+- timezone
+- time synchronization
 
 Inventory не должен самостоятельно принимать сложные диагностические решения.
 
