@@ -1,0 +1,12 @@
+{
+  "protocol_version": 2,
+  "active_task": null,
+  "state": "WAIT_ARCHITECT_TASK",
+  "last_seq": 0,
+  "base_commit": null,
+  "plan_rework_count": 0,
+  "implementation_repair_count": 0,
+  "review_rework_count": 0,
+  "question_repeat_count": 0,
+  "blocked_reason": null
+}
